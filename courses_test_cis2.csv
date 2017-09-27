@@ -1,0 +1,12 @@
+0: course, 1: code, 2: section, 3: id, 4: lec, 5: start, 6: end, 7: freq, 8...N: day, N+1: lab, N+2: start, N+3: end, N+4: freq, N+5...N2: day, N2+1: full
+cis,2520,0101,4367,lec,1430,1550,2,Tuesday,Thursday,lab,1430,1620,1,Monday
+cis,2520,0102,4368,lec,1430,1550,2,Tuesday,Thursday,lab,1130,1320,1,Thursday
+cis,2520,0103,4369,lec,1430,1550,2,Tuesday,Thursday,lab,1130,1320,1,Tuesday
+cis,2520,0104,4370,lec,1430,1550,2,Tuesday,Thursday,lab,1430,1620,1,Friday
+cis,2520,0105,4371,lec,1430,1550,2,Tuesday,Thursday,lab,0930,1120,1,Friday
+cis,2520,0106,4372,lec,1430,1550,2,Tuesday,Thursday,lab,0930,1120,1,Monday
+cis,2520,0107,4373,lec,1430,1550,2,Tuesday,Thursday,lab,1130,1320,1,Tuesday
+cis,2910,0101,4377,lec,1600,1720,2,Tuesday,Thursday,lab,1430,1620,1,Monday
+cis,2910,0102,4378,lec,1600,1720,2,Tuesday,Thursday,lab,1430,1620,1,Wednesday
+cis,2910,0103,4379,lec,1600,1720,2,Tuesday,Thursday,lab,0830,1020,1,Tuesday
+cis,2910,0104,4380,lec,1600,1720,2,Tuesday,Thursday,lab,0930,1120,1,Wednesday
