@@ -13,7 +13,7 @@ def RangesOverlap(start1,end1,start2,end2):
 	if (start1 > end1 or start2 > end2):
 		print("ERROR: VALUES OUT OF ORDER: " + str(start1) + " > " + str(end1) + " OR " + str(start2) + " > " + str(end2))
 		raise ValueError
-	return (int(start1) <= int(end2) and int(start2) <= int(end1))
+	return ((int(start1) <= int(end2)) and (int(start2) <= int(end1)))
 
 class Section(object):
 	def __init__(self,course,sectionID,uniqueID,lecDays,lecStart,lecEnd,labDays,labStart,labEnd,semDays,semStart,semEnd):
