@@ -1,6 +1,7 @@
 Welcome to my command-line based schedule generator. This is specifically aimed at university schedules (and even more specifically at University of Guelph schedules, so other schedules may not work properly).
 
 The program uses the following method to parse courses:
+
 ```0: course, 1: code, 2: section, 3: id, 4: lec, 5: start, 6: end, 7: freq, 8...N: day, N+1: lab, N+2: start, N+3: end, N+4: freq, N+5...N2: day, N+5+N2
 
 s = 	engg, 2410, 01011, 4617, lec, 1300, 1420, 2, Tuesday, Thursday, lab, 0830, 1020, 1, Friday, sem, 1430, 1520, 1, 	Wednesday
@@ -37,9 +38,11 @@ for i in range(1,s[15+s[7]+s[11+s[7]]] = 1):
 ```
 
 Here's what it looks like in operation:
+
 ![Initial Run View Example](/screenshots/screenshot-1.png)
 ![List of Schedules Example](/screenshots/screenshot-2.png)
 ![Selection View Example](/screenshots/screenshot-3.png)
 
 It automatically places the given schedules into a formatted excel spreadsheet, similar to the one below:
+
 ![Final Resultant Spreadsheet Example](/screenshots/screenshot-4.png)
